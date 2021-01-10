@@ -397,7 +397,7 @@ body.light hr.separator {
   }
 
   .header.hide-header {
-    z-index: 0 !important;
+    z-index: 0;
     opacity: 0;
   }
 

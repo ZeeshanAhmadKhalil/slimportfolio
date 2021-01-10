@@ -1,0 +1,21 @@
+.about-email {
+    font-size: 12px;
+}
+
+.btn-home::before {
+    content: '\f015';
+}
+
+.smallPaintingImage {
+    height: 200px;
+    object-fit: cover;
+}
+
+.largePaintingImage {
+    height: 350px;
+    object-fit: contain;
+}
+.sideHeader{
+    opacity: 100% !important;
+    z-index: 2 !important;
+}
