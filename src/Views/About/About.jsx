@@ -10,7 +10,8 @@ export default class About extends Component {
                 age: 22,
                 email: "gulmahnoor8888@gmail.com",
                 languages: ["English", "Urdu"],
-                nationality: "Pakistani"
+                nationality: "Pakistani",
+                smallImage:"https://res.cloudinary.com/gulmahnoor/image/upload/v1610215102/small-pic-mahnoorgul_w7pjla.png",
             },
             paintingsAmounts: [
                 {
@@ -142,7 +143,7 @@ export default class About extends Component {
                                         <h3 class="text-uppercase custom-title mb-0 ft-wt-600">personal infos</h3>
                                     </div>
                                     <div class="col-12 d-block d-sm-none">
-                                        <img src="Slim-content/img/img-mobile.jpg" class="img-fluid main-img-mobile" alt="my picture" />
+                                        <img src={this.state.personalInfo.smallImage} class="img-fluid main-img-mobile" alt="my picture" />
                                     </div>
                                     <div class="col-6">
                                         <ul class="about-list list-unstyled open-sans-font">
